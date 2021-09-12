@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+nav{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  
+}
+a.navlink{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.navlink:hover{
+  background-color: white;
+  color: black;
+}
+div.bike_pics{
+  flex-wrap: wrap;
+  flex-grow: 1;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+img{
+  border-radius: 8px;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#reg_form{
+  text-align: center;
+  padding: 30px;
+ border: 2px solid black;
+ margin: 70px 475px;
+ border-radius: 30px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box_header{
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+input{
+  border: 2px solid black;
+  border-radius: 25px; /*removes edges from box*/
+}
+.reg_button{
+  background-color: black;
+  color: white;
+  margin: 15px 7px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 100%;
+  border: none;
+  width: 50%;
+}
+.reg_button:hover{
+  background-color: grey;
+}
+div{
+  padding: 10px; /*space between user boxes*/
+}
+#rental_form{
+  text-align: center;
+  padding: 30px;
+ border: 2px solid black;
+ margin: 70px 475px;
+ border-radius: 30px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rent_button{
+    background-color: black;
+  color: white;
+  margin: 15px 7px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 100%;
+  border: none;
+  width: 50%;
+}
