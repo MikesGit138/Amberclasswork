@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="reg_form.css" type="text/css" media="screen"/>
+<script defer src="reg_form.js"> </script>
+<title>Registration Form</title>
+<body>
+<form id="reg_form" name="myForm" action="/action_page.php" onsubmit="return validateForm()" >
+  <label class="box_header"><b>Registration Form</b></label>
+  <div>
+  <label id="firstname">First Name</label>
+  <br>
+  <input type="text" value="" name="firstname">
+</div>
+<div>
+  <label>Last Name</label>
+  <br>
+  <input type="text" value="" name="lastname">
+  </div>
+  <div>
+  <label>Type a Username</label>
+  <input type="text" value="" name="username">
+  </div>
+  <div>
+  <label>Email Address</label>
+  <input type="email" value="" name="email">
+  </div>
+  <div>
+  <label>Contact Number</label>
+  <input type="tel" value="" name="contact">
+  </div>
+  <div>
+  <label>Home Address</label>
+  <input type="text" value="" name="address">
+  </div>
+  <div>
+  <button class="reg_button">Register Now!</button>
+</div>
+</form>
+</html>
