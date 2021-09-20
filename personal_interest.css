@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+div#navbar{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(9,9,121,1) 68%, rgba(0,212,255,1) 100%);
+}
+#navbar ul, li, a {
+	border-radius: 25px;
+	text-decoration: none;
+  color: white;
+  background-color: black;
+  font-family: 'Franklin Gothic';
+  padding: 0 50px; /* more proper use of padding */
+  line-height: 55px; /* line-height to allow full clickable area */
+  display: inline-block;
+  position:relative; /* so the line-height can be applied */
+  border: none;
+}
+#navbar li a:hover{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(9,9,121,1) 68%, rgba(0,212,255,1) 100%);
+	color: black;
+}
+
+.header{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(9,9,121,1) 68%, rgba(0,212,255,1) 100%);
+    padding: 15vh;
+    color: white;
+}
+.first_section{
+	background-color: black;
+	color: white;
+	padding: 15vh;
+	line-height: 6vh;
+	font-size: 3vh;
+}
+.pics{
+	display: flex;
+}
+img{
+	border-radius: 20px;
+}
+img:hover{
+	opacity: 0.1;
+}
+.imgtext{
+	position: relative;
+	right: 350px;
+	bottom: 10px;
+	color: yellow;
+	
+}
+.second_section{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(9,9,121,1) 68%, rgba(0,212,255,1) 100%);
+	color: white;
+	padding: 15vh;
+	line-height: 6vh;
+	font-size: 3vh;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid white;
+	border-radius: 21px;
+	width: 40%;
+}
+td, th{
+	border: none;
+}
+.footer{
+	background-color: #181818;
+	color: white;
+	padding:15vh;
+	line-height: 6vh;
+	font-size: 3vh;
+}
+.footer a{
+	color: white;
+}
+.footer a:hover{
+	background-color: white;
+	color: black;
+}
